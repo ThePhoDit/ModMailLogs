@@ -1,0 +1,8 @@
+{
+  "routes": [
+    {
+      "src": "/log",
+      "dest": "/api/log.ts"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "ModMailLogs",
+  "version": "1.0.0",
+  "description": "ModMailLogs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThePhoDit/ModMailLogs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThePhoDit/ModMailLogs/issues"
+  },
+  "homepage": "https://github.com/ThePhoDit/ModMailLogs#readme",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.0",
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.13",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "@vercel/node": "^1.11.1",
+    "eslint": "^7.30.0"
+  },
+  "dependencies": {
+    "mongoose": "^5.13.2",
+    "typescript": "^3.9.3"
+  }
+}
