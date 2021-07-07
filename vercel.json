@@ -1,6 +1,10 @@
 {
   "routes": [
     {
+      "src": "/",
+      "dest": "https://mail.phodit.xyz"
+    },
+    {
       "src": "/log",
       "dest": "/api/log.ts"
     }

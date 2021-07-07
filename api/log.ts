@@ -103,12 +103,12 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         }
 
         .files a {
-            color: white;
+            color: lightskyblue;
             text-decoration: none;
         }
 
         .files a:hover {
-            text-decoration: white;
+            text-decoration: lightskyblue;
         }
 
         .content-text {
