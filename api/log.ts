@@ -172,6 +172,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
     <div class="main">
     		<div>
             <h2>Log from user ${data.recipient.username}#${data.recipient.discriminator}</h2>
+            ${data.note ? '<p>Note: ${data.note}</p>' : ''}
             <hr>
         </div>
         
@@ -183,4 +184,4 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 </html>
 `);
 
-}
+};
