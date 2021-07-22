@@ -22,7 +22,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 		<div style="padding-left: 15px">
 			<h3 class="${msg.type}">${msg.author.username}#${msg.author.discriminator} - ${msg.type}</h3>
 			<p class="content-text">${msg.content}</p>
-			${msg.originalContent ? `<br><p class="content-text"><b>Original </b> ${msg.originalContent}</p>` : ''}
+			${msg.originalContent ? `<br><p class="content-text"><b>Original Content: </b> ${msg.originalContent}</p>` : ''}
 			${msg.attachments && msg.attachments.length > 0 ? `
 			<div class="files">
 					${msg.attachments.map((f, v) => `<a href="${f}">Image ${v}</a>`).join(' ')}

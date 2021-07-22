@@ -29,6 +29,9 @@ const message = {
 		type: String,
 		required: true
 	},
+	complementaryID: {
+		type: String
+	},
 	type: {
 		type: String,
 		required: true
@@ -40,6 +43,9 @@ const message = {
 	content: {
 		type: String,
 		required: true
+	},
+	originalContent: {
+		type: String
 	},
 	attachments: {
 		type: [String],
