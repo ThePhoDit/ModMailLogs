@@ -1,12 +1,14 @@
 {
   "routes": [
     {
-      "src": "/",
-      "dest": "https://modmail.phodit.xyz"
-    },
-    {
       "src": "/log",
       "dest": "/api/log.ts"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "https://modmail.phodit.xyz"
     }
   ]
 }
