@@ -164,7 +164,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
         </div>
 
         <div class="topnav-links">
-            <a href="https://mail.phodit.xyz">ModMail Project</a>
+            <a href="https://modmail.phodit.xyz">ModMail Project</a>
             <a href="https://discord.gg/aUNhdFD">Support Server</a>
         </div>
 

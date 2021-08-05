@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/",
-      "dest": "https://mail.phodit.xyz"
+      "dest": "https://modmail.phodit.xyz"
     },
     {
       "src": "/log",
